@@ -51,20 +51,20 @@
             <div class="input-group f-class">
                 <div>
                     <label for="">First Class ($150)</label>
-                    <input class="inp-style inp-width" type="number" name="">
+                    <input id="firstClassInput" class="inp-style inp-width" type="number" name="" value="0">
                 </div>
                 <div class="plus-minus-btn">
-                    <p> <span id="economyIncrease">+</span> <span id="economyDecrease">-</span> </p>
+                    <p> <button class="buttonPlus"> <span id="firstClassIncrease">+</span></button> <button class="buttonMinus"><span id="firstClassDecrease">--</span></button> </p>
                 </div>
             </div>
             
             <div class="input-group f-class">
                 <div>
                     <label for="">Economy ($100)</label>
-                    <input class="inp-style inp-width" type="number" name="">
+                    <input id="economyClassInput" class="inp-style inp-width" type="number" name="" value="0">
                 </div>
                 <div class="plus-minus-btn">
-                    <p> <span id="firstClassIncrease">+</span> <span id="firstClassDecrease">-</span> </p>
+                    <p> <button class="buttonPlus"><span id="economyIncrease">+</span></button> <button class="buttonMinus"><span id="economyDecrease">--</span> </p></button>
                 </div>
             </div>
             <div class="calculations">
@@ -73,7 +73,7 @@
                         <p>Subtotal</p>
                     </div>
                     <div class="right">
-                        <p>$500</p>
+                        <p>$ <span id="subtotal">0</span></p>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button id="bookNow" class="btn-style">Book Now</button>
         </div>
 
         <div class="booking-content">

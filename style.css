@@ -120,3 +120,17 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+.buttonPlus{
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.buttonMinus{
+    color: white;
+    font-size: 20px;
+    background-color: tomato;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
