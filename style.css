@@ -134,3 +134,7 @@ nav ul li a:hover, a.active{
     margin: 5px 5px;
     padding: 5px 5px;
 }
+
+#bookingConfirm{
+    display: none;
+}
